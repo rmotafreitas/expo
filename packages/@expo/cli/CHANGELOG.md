@@ -4,7 +4,11 @@
 
 ### 🛠 Breaking changes
 
+- Require `generateMetadata()` for initial static page metadata; `expo-router/head` updates metadata after hydration. Move HTML and body attributes previously set through `Head` to `+html.tsx`.
+
 ### 🎉 New features
+
+- Use the streaming renderer for non-RSC static output, including initial metadata from `generateMetadata()`.
 
 ### 🐛 Bug fixes
 

@@ -10,6 +10,8 @@
 
 ### 💡 Others
 
+- Add static output and hydration options to the server render module types.
+
 ## 58.0.1 — 2026-09-21
 
 _This version does not introduce any user-facing changes._

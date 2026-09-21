@@ -6,6 +6,8 @@
 
 ### 🎉 New features
 
+- Add static output to `getStreamingContent()`, waiting for Suspense to resolve before returning HTML.
+
 ### 🐛 Bug fixes
 
 - Preserve bundled, external, and inline stylesheet order in static and streaming documents. ([#50016](https://github.com/expo/expo/pull/50016) by [@hassankhan](https://github.com/hassankhan))
